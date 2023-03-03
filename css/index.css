@@ -24,3 +24,23 @@
 .colorWhite{
     color: #fff;
 }
+
+.paginaPrincipal .content{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    height: calc(100vh - 300px);
+}
+
+.content nav{
+    width: 200px;
+    background-color: #998f8f;
+    height: calc(100vh - 300px);
+}
+
+.content article{
+    width: calc(100% - 200px);
+    height: calc(100vh - 300px);
+}
